@@ -1,0 +1,32 @@
+# Site settings
+title: Blue-Sky Thinking | Nicoleta Spînu
+name: Nicoleta Spînu
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  The personal website of Nicoleta Spînu | PhD, MPharm
+baseurl:  # the subpath of your site, e.g. /blog/
+url: nicospinu.github.io # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Layout
+navbar_fixed: true
+footer_fixed: true
+
+# Dimensions
+max_width: 800px
+
+# Pagination - how many posts to appear per page
+paginate: 3
+paginate_path: "/gsoc/page:num/"
+
+collections:
+  about-phd:
+    output: true
+    permalink: /about-phd/:path/
+  gsoc:
+    output: true
+    permalink: /gsoc/:path/

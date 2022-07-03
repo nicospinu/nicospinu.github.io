@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>How to set PyMC environment locally</title>
+    <meta name="description" content="The personal website of Nicoleta Spînu | PhD, MPharm
+">
+    <meta name="author" content="Nicoleta Spînu">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/2022/06/09/how-to-set-pymc-environment.html">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+      <div class="trigger">
+        <!-- Blue-sky Thinking | Nicoleta Spînu instead of blog -->
+        <a class="page-link" href="/">Home</a>
+
+
+        
+          
+          <a class="page-link" href="/about-phd/">About PhD</a>
+          
+        
+          
+          <a class="page-link" href="/gsoc/">GSoC</a>
+          
+        
+          
+        
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h3 class="post-title">How to set PyMC environment locally</h3>
+    <p class="post-meta">June 9, 2022</p>
+    <p class="post-description">In the beginning, there was light, well, in my case, great mentors with a great plan. To achieve all the objectives, I had to make sure that I had everything installed correctly and that I understood how making contributions to PyMC works.</p>
+  </header>
+
+  <article class="post-content">
+    <p>While this official <a href="https://docs.pymc.io/en/stable/contributing/pr_tutorial.html">tutorial</a> is very explanatory, 
+I will briefly put down the main steps followed by me, which, of course, mostly coincide with the ones from the tutorial.</p>
+<ol>
+  <li>Fork the <a href="https://github.com/pymc-devs/pymc">main repository</a>.</li>
+  <li>Clone it locally either using GitHub Desktop or using the terminal and type 
+<br />
+<code>git clone git@github.com:'your GitHub handle'/pymc.git</code></li>
+  <li>Check your working directory by typing <code>pwd</code></li>
+  <li>Make sure to be the <b>pymc</b> folder. If not use <code>cd pymc</code></li>
+  <li>Write this <i>(I will explain in the next post the local, origin and upstream branches)</i>
+<br />
+<code>git remote add upstream git@github.com:pymc-devs/pymc.git</code></li>
+  <li>Create a virtual environment:
+<br />
+<code>conda env create -f conda-envs/environment-dev-py39.yml</code>
+<br />
+<code>conda activate pymc-dev-py39</code>
+<br />
+<code>pip install -e .</code></li>
+  <li>Run <b>pre-commit</b> checks:
+<br />
+<code>pip install pre-commit</code>
+<br />
+<code>pre-commit run --all</code>
+<br />
+<code>pre-commit install</code></li>
+  <li>You can also run tests to make sure everything works:
+<br />
+<code>pytest -v -k test_math pymc/tests</code></li>
+</ol>
+
+<p>And that’s it 🎉</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+<div class = "wrapper">
+    <p style="text-align:center">Made with ❤ Nicoleta Spînu &#169; Copyright 2022 ️</p>
+</div>
+
+</footer>
+
+
+
+
+  </body>
+
+</html>
