@@ -65,9 +65,9 @@ params:
   email: hello@nicoletaspinu.com
 
   homeInfoParams:
-    Title: "Nicoleta Spînu | PhD, PharmD, AI Engineer"
+    Title: "Nicoleta Spînu <br /><br /> PhD, PharmD, AI Engineer"
     Content:
-      <b>Welcome</b>👋
+      <h3>Welcome 👋 </h3>
       
       <br /><br />
       
@@ -75,7 +75,7 @@ params:
       
       <br /><br />
       
-      If you want to be among the first ones to receive updates on my progress, consider subscribing to <b>[the mailing list](https://tally.so/r/wo71aP)</b>.
+      If you want to be among the first ones to receive updates on my progress, consider subscribing to [the mailing list](https://tally.so/r/wo71aP).
       
       <br /><br />
       
