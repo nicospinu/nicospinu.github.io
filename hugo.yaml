@@ -65,7 +65,7 @@ params:
   email: hello@nicoletaspinu.com
 
   homeInfoParams:
-    Title: "Nicoleta Spînu<br /><h3 style="color:darkgray;">Machine Learning Engineer, Scientist, Pharmacist</h3>"
+    Title: "Nicoleta Spînu<br /><h3 class='subtitle'>Machine Learning Engineer, Scientist, Pharmacist</h3>"
     Content:
       Welcome 👋
       <br />
