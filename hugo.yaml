@@ -62,6 +62,7 @@ params:
   ShowToc: true
   images:
     - /nicoleta.jpg
+  email: hello@nicoletaspinu.com
 
   homeInfoParams:
     Title: "Welcome 👋"
@@ -78,7 +79,7 @@ params:
 
   socialIcons:
     - name: "Email"
-      url: "hello@nicoletaspinu.com"
+      url: hello@nicoletaspinu.com
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/nicoleta-spinu/"
     - name: "GoogleScholar"
