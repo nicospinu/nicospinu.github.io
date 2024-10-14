@@ -1,0 +1,107 @@
+baseURL: "https://github.com/nicospinu/nicospinu.github.io"
+title: nicoleta.bio
+copyright: "© Dr Nicoleta Spînu"
+paginate: 10
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Now
+          url: "https://www.ai4cosmetics.com/"
+        #- name: Tags
+        #  url: tags/
+        #  weight: 1
+        - name: Archive
+          url: all-posts
+          weight: 0
+
+outputs:
+  home:
+    - html
+    - rss
+  section:
+    - html
+    - rss
+
+params:
+  env: production
+  description: "Dr Nicoleta Spînu's personal website, a research scientist in computational toxicology."
+  author: Dr Nicoleta Spînu
+
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  hideAuthor: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  images:
+    - /nicoleta.jpg
+
+  homeInfoParams:
+    Title: "Welcome 👋"
+    Content:
+      Here to share and inspire others on my journey as a founder and scientist. I finally took the leap to combine my experience, knowledge and passion to build and design tools for safety assessors in the cosmetic industry.
+      
+      <br /><br />
+      
+      If you want to be among the first ones to receive updates on my progress, consider subscribing to the [mailing list](https://tally.so/r/wo71aP).
+      
+      <br /><br />
+      
+      Thank you for visiting this page! ❤️
+
+  socialIcons:
+    - name: "Email"
+      url: "hello@nicoletaspinu.com"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/nicoleta-spinu/"
+    - name: "GoogleScholar"
+      url: "https://scholar.google.ca/citations?user=SbSgm9QAAAAJ&hl=en"
+
+  assets:
+    disableHLJS: true
+
+  cover:
+      hidden: false # hide everywhere but not in structured data
+      hiddenInList: false # hide on list pages and home
+      hiddenInSingle: false # hide on single page
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
+
