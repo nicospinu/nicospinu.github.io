@@ -5,6 +5,8 @@ params:
   description: "Let me share a founder's secret: the most valuable conversation you could have next year might not be with a VC or a tech guru – it could be with a scientist."
 tags: ["startup"]
 ---
+Let me share a founder's secret: the most valuable conversation you could have next year might not be with a VC or a tech guru – it could be with a scientist.
+
 Early this year, I spent my holidays at a conference in London. My aim was to learn what the community has to say about a technology I'd been looking into for quite some time. A month later, I found myself talking and engaging with even more PhD students and postdocs from all over the world, from Dubai to San Francisco, from Belgium to Finland to South Korea. The scientific community's warmth caught me off guard. However, it wasn’t the first time I had experienced such a positive interaction. This reminded me to make my call here too on why you should consider your next coffee to be with a scientist.
 
 Just as artists light up when sharing their artwork, scientists come alive when discussing their research. For example, many of the scientists I talked to confessed that the discussions we had put their scientific work into perspectives. Imagine someone working on fundamental type of problems such as optimisation tasks. Conversations with those of us interested in transforming an applied research into a product is a way for them to learn how to position themselves as well as how to better approach the research. On the other hand, every conversation made me feel confident exploring the topic itsels further. It helped me learn firsthand about the current gaps and challenges, and make informed decisions about implementation and other practicalities such as cost implications.
