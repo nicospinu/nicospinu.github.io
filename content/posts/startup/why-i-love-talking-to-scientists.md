@@ -1,0 +1,18 @@
+---
+title: "Why I love talking to scientists"
+date: 2024-12-30T20:00:00
+params:
+  description: "Let me share a founder's secret: the most valuable conversation you could have next year might not be with a VC or a tech guru – it could be with a scientist."
+tags: ["startup"]
+---
+Early this year, I spent my holidays at a conference in London. My aim was to learn what the community has to say about a technology I'd been looking into for quite some time. A month later, I found myself talking and engaging with even more PhD students and postdocs from all over the world, from Dubai to San Francisco, from Belgium to Finland to South Korea. The scientific community's warmth caught me off guard. However, it wasn’t the first time I had experienced such a positive interaction. This reminded me to make my call here too on why you should consider your next coffee to be with a scientist.
+
+Just as artists light up when sharing their artwork, scientists come alive when discussing their research. For example, many of the scientists I talked to confessed that the discussions we had put their scientific work into perspectives. Imagine someone working on fundamental type of problems such as optimisation tasks. Conversations with those of us interested in transforming an applied research into a product is a way for them to learn how to position themselves as well as how to better approach the research. On the other hand, every conversation made me feel confident exploring the topic itsels further. It helped me learn firsthand about the current gaps and challenges, and make informed decisions about implementation and other practicalities such as cost implications.
+
+Scientists have mastered the art of drawing clear lines between what they know, what they think they know, and what remains questionable. It's not uncommon to hear a (renowned) researcher say, 'That's beyond my expertise' or 'I've only read about that, never worked on it directly' – words that might seem like weakness elsewhere but stand as badges of integrity in science. Take Rodney Brooks, who maintains a public scorecard of his [predictions](https://rodneybrooks.com/predictions-scorecard-2024-january-01/). He doesn't just make educated guesses about the future – he tracks them, analyses them, and most importantly, owns up to his misses with the same enthusiasm as his hits. Because here's the truth every researcher learns early: the path to discovery is paved with wrong turns and dead ends. Each breakthrough we celebrate often stands on the foundation of countless failures.
+
+I’m definitely not the only one who understands the value of staying engaged with research communities. For example, Diane Hu, a general partner at YC, [has been](https://youtu.be/TwDJhUJL-5o?feature=shared) a familiar face at NeurIPS since the early 2010s. Or consider NVIDIA and how their computing stack changed because of the AlexNet, developed in the lab of Geoffrey Hinton. More precisely as Jensen Huang [shared](https://youtu.be/y6NfxiemvHg?feature=shared) he used to go to all AI conferences and made sure to speak to "every single AI researcher on the planet" and asked how he could help hem advance their work. Similarly, democratising AI research is the story of PyTorch, which noticed early on the gap and focused on providing a production-ready framework for interdisciplinary researchers. Who doesn’t use it today?!
+
+Every loonshot, to take the term coined by Safi Bahcall, out there had a scientist involved and/or was led directly by a scientist. Today, it is even more noticeable. There are dozens of founders with PhDs who build products and solve problems for real. Some examples, which came first to my mind: Duolingo, Cohere, Mistral, Sword Health.
+
+Happy New Year!

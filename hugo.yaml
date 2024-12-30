@@ -65,9 +65,9 @@ params:
   email: hello@nicoletaspinu.com
 
   homeInfoParams:
-    Title: "Nicoleta Spînu<br /><h3 class='subtitle'>Research Scientist in Computational Toxicology</h3>"
+    Title: "Nicoleta Spînu<br /><h3 class='subtitle'>Derisking active molecules | PhD & PharmD</h3>"
     Content:
-      Here to share and inspire others on my journey as a founder and scientist. I finally took the leap to combine my experience, knowledge and passion to build and design tools for safety assessors in the cosmetic industry.
+      I finally took the leap to combine my experience, knowledge, and passion to design and build a product of my own. I am now on a journey of exploring how to transform an applied research project into a real-world solution.
       <br /><br />
       If you want to be among the first ones to receive updates on my progress, consider subscribing to [the mailing list](https://tally.so/r/wo71aP).
       <br /><br />
@@ -75,7 +75,7 @@ params:
 
   socialIcons:
     - name: "Email"
-      url: hello@nicoletaspinu.com
+      url: "hello@nicoletaspinu.com"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/nicoleta-spinu/"
     - name: "GoogleScholar"
